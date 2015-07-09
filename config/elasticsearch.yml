@@ -1,0 +1,8 @@
+cluster.name: CLUSTER_NAME
+script.disable_dynamic: false
+bootstrap.mlockall: true
+network.publish_host: HOST_IP
+index.auto_expand_replicas: 0-all
+discovery.zen.ping.multicast.enabled: false
+discovery:
+    type: ec2
